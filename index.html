@@ -10,48 +10,67 @@
 
     <!-- Create a navbar -->
     <nav id="top" class="navbar navbar-expand-lg navbar-dark">
-        <span class="navbar-brand mb-0">Nehas-Portfolio:~ nehapullabhotla$</span>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#back-end">Back-End Projects<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="#front-end">Front-End Projects</a>
-            </li>
-            </ul>
+        <div>
+            <span class="navbar-brand mb-0">Nehas-Portfolio:~ nehapullabhotla$ cat About_Me </span>
         </div>
+        <!-- <div class="navbar-collapse" id="navbarSupportedContent">
+            <div class="navbar-nav">
+                <div class="nav-item">
+                    <a class="nav-link" href="/">About Me</a>
+                </div>
+                <div class="nav-item">
+                    <a class="nav-link" href="/projects">Projects</a>
+                </div>
+            </div>
+        </div> -->
     </nav>
 
-    <!-- WELCOME SECTION - WILL BE MODIFIED -->
     <section id="welcome-section">
-        <h1>Portfolio Page coming soon!</h1>
+        <div class="welcome-content">
+        <p>Hi! I'm Neha. I am Natural Language Processing Master's student at UC Santa Cruz passionate about building Gen AI applications that leverage
+            Large Language Models. My primary interest and research has been in Conversational AI, particularly in open-ended social chit-chat.</p>
+
+        <p>You can take a look at my experience through my resume: </p>
+        <!-- <p>You can also find me on: 
+            <a href="https://linkedin.com/your/profile/url" class="fa fa-linkedin"></a>
+        </p> -->
+        </div>   
+    </section>
+
+    <section id="intro-project">
+        <div class="project-intro">
+            <p>Some of my recent projects leverage:</p>
+                <li>No-code/low-code automation workflows.</li>
+                <li>Multimodal LLMs.</li>
+                <li>Generating synthetic data for social chatbots.</li>
+                <li>Fine-tuning pre-trained language models for machine translation.</li>
+                <li>Building applications on top of LangChain and LlamaIndex.</li>
+
+            <p class="project-intro-end">You can take a look at some of my projects here:</p>
+        </div>   
     </section>
 
     <!-- START PROJECTS DISPLAY -->
     <section id="projects">
     <div class="container">
     <div id="front-end">
-    <h2>Front-end Projects</h2>
+    <h4>Projects</h4>
     <div class="row">
         <!-- Project 1 -->
         <div class="col-lg-4 mb-4">
         <div class="card">
-            <img class="card-img-top" src="museum_candy.png" alt="">
+            <img class="card-img-top" src="amazon_alexa_challenge.png" alt="">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title">Amazon Alexa SocialBot: Athena</h5>
+                <p class="card-text">Replaced template-based response generation for multimodal open-domain social chitchat with prompt-based transfer learning techniques using LLMs.</p>
             </div>
-            <ul class="list-group list-group-flush">
+            <!-- <ul class="list-group list-group-flush">
                 <li class="list-group-item">Cras justo odio</li>
-            </ul>
-            <div class="card-body">
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
+            </ul> -->
+            <div class="card-footer">
+                <a href="https://assets.amazon.science/2c/ff/d6eb3f0148b8bf0b2fc446c1d5f8/athena-3.0%20Personalized%20Multimodal%20ChatBot%20with%20Neuro-Symbolic%20Dialogue%20Generators.pdf" 
+                target="_blank" rel="noopener noreferrer" class="card-link">Publication</a>
+                <a href="#" class="card-link">Demo</a>
             </div>
         </div>
         </div>
@@ -59,75 +78,16 @@
         <!-- Project 2 -->
         <div class="col-lg-4 mb-4">
         <div class="card">
-            <img class="card-img-top" src="color_game.png" alt="">
+            <img class="card-img-top" src="KGNLG.png" alt="">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title">Knowledge-Grounded Dialogue Act Labeled Synthetic Dialogue Generation for Open Domain Dialogue</h5>
+                <p class="card-text">Generating synthetic dialogues with few-shot prompt-based Natural Language Generation (NLG) for utterance and dialogue-level conversations using LLMs.</p>
             </div>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">Cras justo odio</li>
-            </ul>
-            <div class="card-body">
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-            </div>
-        </div>
-        </div>
-
-        <!-- Project 3 -->
-        <div class="col-lg-4 mb-4">
-        <div class="card">
-                <img class="card-img-top" src="patatap.png" alt="">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Cras justo odio</li>
-                </ul>
-                <div class="card-body">
-                    <a href="#" class="card-link">Card link</a>
-                    <a href="#" class="card-link">Another link</a>
-                </div>
-        </div>
-        </div>
-    </div>
-    </div>
-
-    <div id="back-end">
-    <h2>Back-end Projects</h2>
-    <div class="row">
-        <!-- Project 1 -->
-        <div class="col-lg-4 mb-4">
-        <div class="card">
-            <img class="card-img-top" src="half-toning.png" alt="">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">Cras justo odio</li>
-            </ul>
-            <div class="card-body">
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-            </div>
-        </div>
-        </div>
-
-        <!-- Project 2 -->
-        <div class="col-lg-4 mb-4">
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">Cras justo odio</li>
-            </ul>
-            <div class="card-body">
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
+            <div class="card-footer">
+                <a href="https://drive.google.com/file/d/13V08HHxBzarfbtqpFzn_F7O_uwnjILOk/view?usp=sharing" 
+                target="_blank" rel="noopener noreferrer" class="card-link">Report</a>
+                <a href="https://github.com/nehapull/KGDA_nlg" 
+                target="_blank" rel="noopener noreferrer" class="card-link">Code</a>
             </div>
         </div>
         </div>
@@ -135,20 +95,21 @@
         <!-- Project 3 -->
         <div class="col-lg-4 mb-4">
         <div class="card">
+                <img class="card-img-top" src="ipnmt.png" alt="">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h5 class="card-title">Interactive-Predictive Neural Machine Translation</h5>
+                    <p class="card-text">Our primary target contribution is to explore various approaches to create an interactive
+                        prediction tool that can suggest next words during a translation using pre-trained transformer
+                        models.</p>
                 </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Cras justo odio</li>
-                </ul>
-                <div class="card-body">
-                    <a href="#" class="card-link">Card link</a>
-                    <a href="#" class="card-link">Another link</a>
+                <div class="card-footer">
+                    <a href="https://www.youtube.com/watch?v=nWbncs-xryc" target="_blank" rel="noopener noreferrer" 
+                    class="card-link">Demo</a>
+                    <a href="https://github.com/dhananjay1210/interactive-predictive-machine-translation" target="_blank" rel="noopener noreferrer" 
+                    class="card-link">Code</a>
                 </div>
         </div>
         </div>
-    </div>
     </div>
     </div>
     </section>
