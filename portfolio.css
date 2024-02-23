@@ -1,0 +1,104 @@
+body {
+    background-color: rgb(33, 36, 33) !important;
+    font-family: 'Ubuntu Mono', monospace !important;
+}
+
+html {
+    scroll-behavior: smooth;
+    border-style: inset;
+}
+
+h4 {
+    color: rgb(207, 200, 200);
+    padding-bottom: 20px;
+}
+
+li {
+    color: rgb(207, 200, 200);
+}
+
+p {
+    color: rgb(207, 200, 200);
+}
+
+.project-intro {
+    text-align: left;
+}
+
+/* Additional styling */
+.navbar-nav .nav-item {
+    display: block; /* Ensure each item appears on a new line */
+    margin-bottom: 5px; /* Add margin between items */
+}
+
+.project-intro {
+    max-width: 1000px;
+    margin-left: 165px;
+    margin-bottom: 20px;
+}
+
+.project-intro-end {
+    margin-top: 30px;
+}
+
+.project-intro p {
+    text-align: justify; /* Justify the text */
+}
+
+/* Additional styling */
+.card {
+    height: 100%; /* Ensure all cards have the same height */
+}
+
+.card-img-top {
+    height: 200px; /* Set a fixed height for the images */
+    object-fit: cover; /* Ensure images maintain aspect ratio and cover the entire container */
+}
+
+.card-footer {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 0.75rem;
+}
+
+.fa {  
+    padding: 20px;  
+    text-align: center;  
+    margin: 5px 2px;  
+    font-size: 2px;  
+    width: 10px;  
+}  
+
+.fa-linkedin {  
+    background: #007bb5;  
+    color: white;  
+}
+
+.fa:hover {  
+    opacity: 0.9;  
+}
+
+#scroll-top {
+    text-align: right;
+    float: right;
+    color: azure;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+#welcome-section {
+    text-align: center;
+    color: rgb(207, 200, 200);
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.welcome-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#front-end {
+    margin-bottom: 50px;
+}
